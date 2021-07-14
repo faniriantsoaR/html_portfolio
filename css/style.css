@@ -80,7 +80,7 @@ html, body{
 .flex{
     display: flex;
     align-items: center ;
-    margin: auto; /* auto => centrer automatiquement */
+    margin: auto; 
     margin-top: 50px ;
 }
 
@@ -115,9 +115,9 @@ html, body{
     width: 100% ;
     clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 100%, 0 15%) ; /*Manisy anle otrn triangle kely ambony */
     text-align: center ;
-    padding: 70px 20px 30px 20px ; /*top right bottom right*/
+    padding: 70px 20px 30px 20px ;
     align-items: stretch ;/*amizay mitovy automatique ny height anle élement enfant*/
-    box-sizing: border-box; /* resaka relation entre bordure, padding, width fa azavaiko amin'ny manaraka */
+    box-sizing: border-box; 
 }
 
 #skill img{
